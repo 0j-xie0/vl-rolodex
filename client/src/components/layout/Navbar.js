@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import AuthContext from '../../context/auth/authContext.js';
 import ContactContext from '../../context/contact/contactContext.js';
-import Logo from './logo.svg';
 
 const Navbar = ({ title }) => {
   const authContext = useContext(AuthContext);
@@ -45,9 +44,8 @@ const Navbar = ({ title }) => {
 
   return (
     <div className='navbar bg-primary'>
-      <h1>
-        <img src={Logo} alt={''} /> {title}
-      </h1>
+      {title}
+
       <ul>{isAuthenticated ? authLinks : guestLinks}</ul>
     </div>
   );
