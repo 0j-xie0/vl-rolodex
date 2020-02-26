@@ -1,0 +1,8 @@
+node_modules/
+
+/client/.env.local
+/client/.env.developmental.local
+/client/.env.test.local
+/client/.env.production.local
+
+npm-debug.log*

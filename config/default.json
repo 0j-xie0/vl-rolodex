@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://0j-xie0:VL-contacts@cluster001-8kfze.mongodb.net/ValenceLogicDB?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}
