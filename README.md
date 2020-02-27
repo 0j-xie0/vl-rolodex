@@ -1,4 +1,4 @@
-# React NodeJS Full Stack Rolodex App
+# React NodeJS Rolodex App
 
 # Installation  
 •Install NodeJS v12.16.x  
