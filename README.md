@@ -16,3 +16,13 @@
 •Copy SRV connection string and replace the one in /config/default.json  
 •Remember to include your user password in your new connection string  
 •npm run dev to run React localhost:3000 & Express localhost:5000  
+# Tasks Performed  
+### •Implemented React Hooks  
+### •Implemented State Management via Context API
+### •Implemented JWT Authentication  
+### •Implemented Express Server Framework  
+•Created router middleware for endpoint handling  
+•Created router middleware for user handling  
+### •Interfaced Mongoose with MongoDB.Atlas   
+•Used Mongoose models to map between API & MongoDB objects  
+•Used Mongoose methods to validate & query data in MongoDB.Atlas
